@@ -30,11 +30,11 @@ export default function Home() {
         {/* main body with side bar */}
         <div className="row justify-content-center flex-grow-1">
           {/* side bar */}
-          <div className="col-2" style={sidebarStyle}>
+          <div className="col-1" style={sidebarStyle}>
             <Sidebar />
           </div>
 
-          <div className="col-10" style={mainbarStyle}>
+          <div className="col-11" style={mainbarStyle}>
             <Main />
           </div>
         </div>
