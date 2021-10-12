@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Sidebar from "../components/sidebar";
 import Main from "../components/Mainbar";
 import Navbar from "../components/navbar";
+// import "styles/index.css";
 
 export default function Home() {
   const sidebarStyle = {
